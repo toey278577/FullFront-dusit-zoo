@@ -1,0 +1,68 @@
+.container {
+    max-width: 900px; /* Limit container width */
+    margin: 0 auto; /* Center the container */
+}
+
+h2 {
+    color: #2c3e50; /* Set a color for the header */
+    font-weight: bold; /* Make header bold */
+    text-transform: uppercase; /* Uppercase letters */
+    border-bottom: 2px solid #abce1a; /* Underline header */
+    padding-bottom: 10px; /* Space below header */
+}
+
+.table {
+    background-color: #f9f9f9; /* Light background for the table */
+    border-radius: 8px; /* Rounded corners for the table */
+    overflow: hidden; /* Prevent border radius from cutting off */
+}
+
+.table th {
+    background-color: #abce1a; /* Header background color */
+    color: white; /* Text color for headers */
+    font-weight: bold; /* Bold header text */
+    text-align: center; /* Center header text */
+}
+
+.table td {
+    text-align: center; /* Center text in table cells */
+    vertical-align: middle; /* Vertically center text */
+}
+
+.table tbody tr:hover {
+    background-color: #e8f5e9; /* Highlight row on hover */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: white; /* Odd rows background color */
+}
+.opening-hours-title {
+    background-color: #abce1a; /* Background color for the title */
+    color: white; /* Text color */
+    font-size: 1.5rem; /* Larger font size */
+    padding: 15px 0; /* Padding for spacing */
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
+    margin-bottom: 10px; /* Margin below title */
+  }
+  
+  .opening-hours-details {
+    background-color: #f9f9f9; /* Light background color for the details */
+    padding: 20px; /* Padding for details */
+    border-bottom: 2px solid #abce1a; /* Underline for separation */
+  }
+  
+  .opening-hours-details strong {
+    font-size: 1.2rem; /* Bold font size for opening hours */
+    display: block; /* Make it a block element */
+    margin-bottom: 5px; /* Space below bold text */
+  }
+  
+  .opening-hours-details span {
+    color: #555; /* Slightly muted color for the additional text */
+    font-size: 1rem; /* Regular font size for additional text */
+  }
+  

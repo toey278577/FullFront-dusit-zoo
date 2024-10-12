@@ -1,0 +1,33 @@
+/* contract.css */
+
+/* ให้มีระยะห่างระหว่างคอนเทนต์ */
+.container-xxl {
+  padding-top: 3rem; /* เพิ่มระยะห่างด้านบน */
+  padding-bottom: 3rem; /* เพิ่มระยะห่างด้านล่าง */
+}
+
+/* สไตล์สำหรับการ์ดติดต่อ */
+.h-100 {
+  border-radius: 8px; /* มุมโค้ง */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* เงาเบา */
+}
+
+/* สไตล์สำหรับไอคอน */
+.btn-lg-square {
+  width: 60px; /* กำหนดความกว้าง */
+  height: 60px; /* กำหนดความสูง */
+  border-radius: 50%; /* ทำให้เป็นวงกลม */
+  display: flex; /* ใช้ Flexbox */
+  align-items: center; /* จัดกึ่งกลางแนวตั้ง */
+  justify-content: center; /* จัดกึ่งกลางแนวนอน */
+}
+
+/* สไตล์สำหรับ iframe ของ Google Maps */
+iframe {
+  border-radius: 8px; /* มุมโค้ง */
+}
+
+/* ทำให้ข้อความมีความชัดเจน */
+.mb-0 {
+  margin-bottom: 0; /* ไม่ให้มีระยะห่างด้านล่าง */
+}

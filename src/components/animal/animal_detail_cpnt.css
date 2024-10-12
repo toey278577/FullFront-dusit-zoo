@@ -1,0 +1,13 @@
+/* .dataAnimal{
+    text-align: center;
+    margin-top: 50px;
+} */
+/* animal_detail_cpnt.css */
+.dataAnimal {
+    display: flex;
+    justify-content: center; /* จัดแนวนอนให้อยู่ตรงกลาง */
+    align-items: center;     /* จัดแนวตั้งให้อยู่ตรงกลาง */
+    min-height: 100vh;       /* ทำให้ div ครอบคลุมทั้งหน้าจอ */
+    background-color: #ffffff; /* เลือกสีพื้นหลัง (ถ้าต้องการ) */
+  }
+ 

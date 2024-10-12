@@ -1,0 +1,37 @@
+/* home_cpnt.css */
+
+/* สไตล์สำหรับ Carousel */
+.carousel-item img {
+  height: 300px; /* ความสูงของรูปภาพใน Carousel */
+  object-fit: cover; /* ทำให้รูปภาพไม่เสียรูป */
+}
+
+/* ปรับความกว้างของภาพที่แสดงใน Carousel */
+.carousel-item {
+  max-height: 300px; /* ป้องกันไม่ให้ Carousel เกินความสูงที่กำหนด */
+}
+
+/* สไตล์สำหรับภาพที่แสดงในเนื้อหา */
+.img-border {
+  border: 2px solid #abce1a; /* เพิ่มกรอบให้กับภาพ */
+  border-radius: 8px; /* มุมโค้ง */
+  overflow: hidden; /* ป้องกันภาพหลุดจากกรอบ */
+}
+
+/* ให้ภาพแสดงผลเต็มที่ */
+.img-fluid {
+  max-width: 100%; /* จำกัดความกว้างให้ 100% ของ container */
+  height: auto; /* ให้ความสูงปรับตามอัตราส่วน */
+}
+
+/* ปรับขนาดข้อความให้เหมาะสม */
+.display-5 {
+  font-size: 2.5rem; /* ปรับขนาดข้อความ */
+  font-weight: bold; /* ทำให้ข้อความหนา */
+  margin-bottom: 1.5rem; /* ระยะห่างด้านล่าง */
+}
+
+/* ให้ข้อความมีความชัดเจน */
+.mb-4 {
+  margin-bottom: 1.5rem; /* ระยะห่างด้านล่าง */
+}
